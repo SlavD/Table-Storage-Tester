@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="TestQuerySpeed" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="1" osVersion="*">
+  <Role name="MvcWebRole1">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=slavdell;AccountKey=mxML7Kk1V8VWKQi8WynbOZtAlCNWLv08xwQhe0Aj//5POp83Dwf1vox+ZSOHICv4csOGR6JaK6HdhQZPED13YA==" />
+      <Setting name="DataConnectionString" value="DefaultEndpointsProtocol=https;AccountName=slavdell;AccountKey=mxML7Kk1V8VWKQi8WynbOZtAlCNWLv08xwQhe0Aj//5POp83Dwf1vox+ZSOHICv4csOGR6JaK6HdhQZPED13YA==" />
+    </ConfigurationSettings>
+  </Role>
+</ServiceConfiguration>
